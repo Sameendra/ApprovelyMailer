@@ -9,7 +9,7 @@ public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
 {
     log.Info($"Webhook was triggered!");
 
-    
+    // testing github integration
 
     string jsonContent = await req.Content.ReadAsStringAsync();
 
